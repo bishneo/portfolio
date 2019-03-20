@@ -2,8 +2,8 @@ import React from 'react';
 const Education = ({ imgUrl, uniUrl, uniName, major, start, end, courses }) => {
     return (
         <div className="row">
-            <div className="col s12 l2 offset-l1">
-                <img className="uni-logo responsive-img" src={imgUrl} alt=""></img>
+            <div className="col s6 l2 push-s3 offset-l1">
+                <img className="uni-logo responsive-img center" src={imgUrl} alt=""></img>
             </div>
             <div className="col s12 l8 offset-l1">
                 <div>

@@ -5,7 +5,7 @@ import Skill from '../utils/Skill'
 class Resume extends Component {
     render() {
         return (
-            <div className='resume-page'>
+            <div className='main resume-page'>
                 <div className="row">
                     <div className="col s12 l4">
                         <div className="row">

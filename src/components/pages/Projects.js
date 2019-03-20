@@ -3,7 +3,7 @@ import ProjectCard from '../utils/ProjectCard'
 class Projects extends Component {
     render() {
         return (
-            <div className="row container">
+            <div className="row main container">
                 <ProjectCard
                     title="Neural Style Transfer"
                     imgUrl="res/images/nstsample.png" />
