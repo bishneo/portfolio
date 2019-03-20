@@ -1,6 +1,6 @@
 import React from 'react';
 const ProjectCard = ({ title, link, imgUrl, content }) => {
-    const placeHolderImg = "/res/images/temp-proj.png";
+    const placeHolderImg = "/res/images/tempproj.png";
     imgUrl = imgUrl ? imgUrl : placeHolderImg;
     return (
         <div className="col s6 l4">
