@@ -37,7 +37,7 @@ class Resume extends Component {
                         <div className="section" id="edu">
                             <h3>Education</h3>
                             <Education
-                                imgUrl="/res/images/NEU-logo.png"
+                                imgUrl="/res/images/NEUlogo.png"
                                 uniUrl="https://www.khoury.northeastern.edu/program/computer-science-ms/"
                                 uniName="Northeastern University"
                                 major="Computer Science"
@@ -46,7 +46,7 @@ class Resume extends Component {
                                 courses="Programming Design Patterns, Foundations of Artificial Intelligence, Algorithm, Robotic Systems and Sciences" />
 
                             <Education
-                                imgUrl="/res/images/NITW-logo.png"
+                                imgUrl="/res/images/NITWlogo.png"
                                 uniUrl="https://www.nitw.ac.in/"
                                 uniName="National Institute of Technology, Warangal"
                                 major="Electronics and Communication Engineering"
