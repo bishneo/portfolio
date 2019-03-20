@@ -37,8 +37,16 @@ code {
   font-size: 1.2rem !important;
 }
 
+@media (max-width: 400px) { 
+
+  .contact-section{
+    padding: 0;
+  }
+      
+}
+
 .contact-section{
-  padding: 2em;
+  padding: 1em;
 }
 .intro-box{
   background-color: black;
