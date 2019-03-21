@@ -13,6 +13,7 @@ class Projects extends Component {
                     imgUrl="res/images/stockex.png" />
                 <ProjectCard
                     title="Biometric Recognition System" 
+                    link="res/files/BTechProjectBN_BiometricRecog.pdf"
                     imgUrl="res/images/biometric.png"/>
                 <ProjectCard
                     title="Motorized Guitar Tuner"
