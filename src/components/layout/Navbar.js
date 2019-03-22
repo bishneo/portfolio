@@ -4,7 +4,7 @@ import PageLinks from './PageLinks';
 
 const Navbar = () => {
     return (
-        <nav className="nav-wrapper sticky black">
+        <nav className="nav-wrapper sticky grey darken-4">
             <div className="container">
                 <div className="row">
                     <div className="col s2 push-s0.5">

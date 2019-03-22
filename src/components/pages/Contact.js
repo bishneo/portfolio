@@ -1,8 +1,9 @@
 import React, { Component } from 'react';
+import Info from '../utils/Info';
 class Contact extends Component {
     render() {
         return (
-            <footer class="section page-footer black" id="contact">
+            <footer class="section page-footer grey darken-4" id="contact">
                 <div class="center resume-page">
                     <h4>Contact</h4>
                     <h6 className="grey-text">Please reach out to me for any Software Development Internship/Co-op opportunities.</h6>
@@ -13,7 +14,7 @@ class Contact extends Component {
                             <span className="center">neogy.b@&#8203;husky.neu.edu</span>
                         </div>
                         <div className="col s4 l4 grey-text">
-                            <a href="https://goo.gl/maps/p7dhcqLpgHT2" rel="noopener noreferrer" target="_blank">
+                            <a href={Info.mylinks.location} rel="noopener noreferrer" target="_blank">
                                 <i className="material-icons medium grey-text">location_on</i>
                             </a>
                             <br />
@@ -27,18 +28,18 @@ class Contact extends Component {
                     </div>
                     <div className="row contact-section container grey-text">
                         <div className="col s6 l6 container right-align grey-text">
-                            <a href="https://www.linkedin.com/in/bishwarup-neogy-57347a62/" rel="noopener noreferrer" target="_blank" class="grey-text">
-                                <i className="fab fa-linkedin fa-2x black prefix"></i>
+                            <a href={Info.mylinks.linkedin} rel="noopener noreferrer" target="_blank" class="grey-text">
+                                <i className="fab fa-linkedin fa-2x prefix"></i>
                             </a>
                         </div>
                         <div className="col s6 l6 container left-align grey-text">
-                            <a href="https://github.ccs.neu.edu/bishneo" rel="noopener noreferrer" target="_blank" class="grey-text">
-                                <i className="fab fa-github fa-2x black prefix"></i>
+                            <a href={Info.mylinks.github} rel="noopener noreferrer" target="_blank" class="grey-text">
+                                <i className="fab fa-github fa-2x prefix"></i>
                             </a>
                         </div>
                     </div>
                 </div>
-                <div class="footer-copyright black">
+                <div class="footer-copyright">
                     <div class="container center">&copy;2019 bish.neo</div>
                 </div>
             </footer>

@@ -1,6 +1,7 @@
 body {
   margin: 0;
   padding: 0;
+  background-color: #eeeeee;
   font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
   -webkit-font-smoothing: antialiased;
   -moz-osx-font-smoothing: grayscale;
@@ -57,14 +58,18 @@ code {
 }
 
 .landing-page{
-  min-height: 700px;
+  min-height: 50em;
   background-image: url(./res/img/rockclimb.jpg);
   background-size: cover;
-  background-position: bottom;
+  background-position: top;
   padding: 0;
 }
 
 .sticky {
   position: fixed;
   z-index: 2;
+}
+
+.profile-img{
+  object-fit: cover;
 }

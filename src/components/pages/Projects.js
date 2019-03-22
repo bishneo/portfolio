@@ -1,34 +1,42 @@
-import React, { Component } from 'react';
+import React from 'react';
 import ProjectCard from '../utils/ProjectCard'
-class Projects extends Component {
-    render() {
-        return (
-            <div className="row main container">
-                <ProjectCard
-                    title="Neural Style Transfer"
-                    imgUrl="res/images/nstsample.png" />
-                <ProjectCard
-                    title="Stock Exchange Learner"
-                    link="https://github.ccs.neu.edu/bishneo/PDP_5010_A8_Stocks2"
-                    imgUrl="res/images/stockex.png" />
-                <ProjectCard
-                    title="Biometric Recognition System" 
-                    link="res/files/BTechProjectBN_BiometricRecog.pdf"
-                    imgUrl="res/images/biometric.png"/>
-                <ProjectCard
-                    title="Motorized Guitar Tuner"
-                    imgUrl="res/images/guitartuner.jpg" />
-                <ProjectCard
-                    title="Planner Web App" 
-                    link="https://marioplan-a1a82.firebaseapp.com/signIn"
-                    imgUrl="res/images/plannerapp.png"/>
-                <ProjectCard
-                    title="Emergency Caller App" 
-                    link="https://devpost.com/software/emergency-caller"
-                    imgUrl="res/images/emcaller.jpg"/>
-            </div>
-        )
-    }
+import Info from '../utils/Info';
+const Projects = () => {
+    const { mylinks, desc } = Info;  
+    return (
+        <div className="row main container">
+            <ProjectCard
+                title="Neural Style Transfer"
+                link={mylinks.projects.neural}
+                imgUrl="res/images/nstsample.png"
+                desc={desc.projects.neural} />
+            <ProjectCard
+                title="Stock Exchange Learner"
+                link={mylinks.projects.stock}
+                imgUrl="res/images/stockex.png"
+                desc={desc.projects.stock} />
+            <ProjectCard
+                title="Biometric Recognition System"
+                link={mylinks.projects.biometric}
+                imgUrl="res/images/biometric.png"
+                desc={desc.projects.biometric} />
+            <ProjectCard
+                title="Motorized Guitar Tuner"
+                link={mylinks.projects.guitar}
+                imgUrl="res/images/guitartuner.jpg"
+                desc={desc.projects.guitar} />
+            <ProjectCard
+                title="Planner Web App"
+                link={mylinks.projects.planner}
+                imgUrl="res/images/plannerapp.png" 
+                desc={desc.projects.planner}/>
+            <ProjectCard
+                title="Emergency Caller App"
+                link={mylinks.projects.emcaller}
+                imgUrl="res/images/emcaller.jpg"
+                desc={desc.projects.emcaller} />
+        </div>
+    )
 }
 
 export default Projects;

@@ -3,7 +3,7 @@ class LandingPage extends Component {
     render() {
         return (
             <div className="landing-page valign-wrapper">
-                <div className="container intro-box center white-text">
+                <div className="container intro-box center grey-text text-lighten-4">
                     <h1 className="red-text">Hi,</h1>
                     <h3>I'm Bishwarup</h3>
                     <hr style={{ border: '1px solid white', width: '70%' }} />
