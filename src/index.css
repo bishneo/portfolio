@@ -16,6 +16,18 @@ code {
   padding: 0 2em 2em 2em;
 }
 
+button:focus{
+  background-color: #263238;
+}
+
+button:hover{
+  background-color: #263238 ;
+}
+
+.MuiPrivateTabIndicator-colorSecondary-35 {
+  background-color: #ad1457;
+}
+
 .resume-page{
   padding: 1em;
 }
@@ -72,4 +84,11 @@ code {
 
 .profile-img{
   object-fit: cover;
+}
+
+.flexbox {
+  display: -webkit-flex;
+  display: -ms-flexbox;
+  display: flex;
+  overflow: hidden;
 }

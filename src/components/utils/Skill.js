@@ -7,8 +7,8 @@ const Skill = ({ ratings, skillName }) => {
                 <h6 className="right-align">{skillName}</h6>
             </div>
             <div className="col s8 l7 progress-bar">
-                <div class="progress skill-progress">
-                    <div class="determinate purple" style={{ width: ratings }}></div>
+                <div className="progress skill-progress">
+                    <div className="determinate purple" style={{ width: ratings }}></div>
                 </div>
             </div>
         </div>

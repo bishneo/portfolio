@@ -1,7 +1,7 @@
 import React from 'react';
 import { NavLink } from 'react-router-dom';
 import { Tooltip } from '@material-ui/core';
-import Info from '../utils/Info';
+import InfoStore from '../stores/InfoStore';
 
 const PageLinks = () => {
     return (
@@ -11,7 +11,7 @@ const PageLinks = () => {
                 <li><NavLink to='/projects'>Projects</NavLink></li>
                 <li>
                     <Tooltip title="Download Resume">
-                        <a href={Info.mylinks.resume} rel="noopener noreferrer" target="_blank" className='tooltipped btn btn-floating grey darken-1'>
+                        <a href={InfoStore.resume} rel="noopener noreferrer" target="_blank" className='tooltipped btn btn-floating grey darken-1'>
                             <i className="material-icons">assignment</i>
                         </a>
                     </Tooltip>
