@@ -73,7 +73,10 @@ const ProfileStore = {
             },
             {
                 id: 6, name: "C/C++", ratings: "70%"
-            }
+            },
+            {
+                id: 7, name: "Python", ratings: "60%"
+            },
         ]
     }
 }
