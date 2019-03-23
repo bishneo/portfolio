@@ -1,5 +1,6 @@
 import React from 'react';
-const AboutSection = ({about, info}) => {
+const AboutSection = ({ about, info }) => {
+    console.log(about);
     return (
         <div>
             <div className="row">
@@ -20,14 +21,14 @@ const AboutSection = ({about, info}) => {
 
             <p>{about.aboutme}</p>
 
-            <hr style={{ borderTop: '3px solid #833fb2', width: '100%' }} />
-
-            <h5 className="grey-text text-darken-2">Address</h5>
+            {/* <hr style={{ borderTop: '3px solid #833fb2', width: '100%' }} /> */}
+            <blockquote><em>{about.quote}</em></blockquote>
+            {/* <h5 className="grey-text text-darken-2">Address</h5>
             <p>{info.address}</p>
             <h5 className="grey-text text-darken-2">Phone</h5>
             <p>{info.phno}</p>
             <h5 className="grey-text text-darken-2">Email</h5>
-            <p>{info.email}</p>
+            <p>{info.email}</p> */}
 
             <hr style={{ borderTop: '3px solid #833fb2', width: '100%' }} />
         </div>

@@ -8,12 +8,12 @@ const Profile = () => {
     const { skills, education, experience } = Details;
 
     return (
-        <div className='main resume-page'>
+        <div className='sub-panel resume-page'>
             <div className="flexbox row">
                 <div className="col s12 l4 about">
                     <AboutSection about={About} info={InfoStore} />
                 </div>
-                <div className="col s12 l8 tabsPanel grey darken-4 grey-text text-lighten-4">
+                <div className="col s12 l8 grey darken-4 grey-text text-lighten-4">
                     <ProfileTabs education={education} experience={experience} skills={skills} />
                 </div>
             </div>

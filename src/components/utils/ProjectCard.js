@@ -5,7 +5,7 @@ const ProjectCard = ({ title, link, imgUrl, desc }) => {
     desc = desc ? desc : "Coming soon...";
     return (
         <div className="col s6 l4">
-            <div class="card hoverable small sticky-action">
+            <div class="card hoverable activator small sticky-action">
                 <div class="card-image waves-effect waves-block waves-light">
                     <img class="activator" src={imgUrl} alt="" />
                 </div>

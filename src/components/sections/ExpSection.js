@@ -14,6 +14,7 @@ const ExpSection = ({ experience }) => {
                         end={exp.end}
                         desc={exp.desc}
                         key={exp.eId}
+                        bullets={exp.bullets}
                     />
                 )
             })}
