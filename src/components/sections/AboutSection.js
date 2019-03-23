@@ -1,6 +1,5 @@
 import React from 'react';
 const AboutSection = ({ about, info }) => {
-    console.log(about);
     return (
         <div>
             <div className="row">

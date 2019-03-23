@@ -10,7 +10,8 @@ const Projects = () => {
                         title={p.title}
                         link={p.url}
                         imgUrl={p.img}
-                        desc={p.desc} />
+                        desc={p.desc} 
+                        key={p.pId}/>
                 )
             })}
         </div>

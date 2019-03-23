@@ -5,16 +5,16 @@ const ProjectCard = ({ title, link, imgUrl, desc }) => {
     desc = desc ? desc : "Coming soon...";
     return (
         <div className="col s6 l4">
-            <div class="card hoverable activator small sticky-action">
-                <div class="card-image waves-effect waves-block waves-light">
-                    <img class="activator" src={imgUrl} alt="" />
+            <div className="card hoverable small sticky-action">
+                <div className="card-image waves-effect waves-block waves-light">
+                    <img className="activator" src={imgUrl} alt="" />
                 </div>
-                <div class="card-content">
-                    <span class="card-title activator grey-text text-darken-3"><b>{title}</b></span>
+                <div className="card-content">
+                    <span className="card-title activator grey-text text-darken-3"><b>{title}</b></span>
                 </div>
-                <div class="card-reveal">
-                    <span class="flow-text card-title project-card-title grey-text text-darken-3">{title}
-                        <i class="material-icons right">close</i>
+                <div className="card-reveal">
+                    <span className="flow-text card-title project-card-title grey-text text-darken-3">{title}
+                        <i className="material-icons right">close</i>
                     </span>
                     <p>{desc}</p>
                     {link ? <a href={link} rel="noopener noreferrer" target="_blank">Link</a> : null}

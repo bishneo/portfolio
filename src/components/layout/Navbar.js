@@ -7,7 +7,7 @@ const Navbar = () => {
         <nav className="nav-wrapper sticky grey darken-4">
             <div className="container">
                 <div className="row">
-                    <div className="col s2 push-s0.5">
+                    <div className="col s2">
                         <Link to='/' className="brand-logo left">
                             <span className="portfolio-name">Portfolio</span>
                         </Link>
