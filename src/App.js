@@ -1,5 +1,5 @@
 import React, { Component } from 'react';
-import { BrowserRouter, Route, Switch } from 'react-router-dom';
+import { HashRouter, Route, Switch } from 'react-router-dom';
 import Navbar from './components/layout/Navbar';
 import LandingPage from './components/pages/LandingPage'
 import Profile from './components/pages/Profile'
@@ -9,7 +9,7 @@ import Projects from './components/pages/Projects'
 class App extends Component {
   render() {
     return (
-      <BrowserRouter>
+      <HashRouter>
         <div className="App">
           <Navbar />
           <div className="main-panel">
@@ -22,7 +22,7 @@ class App extends Component {
           </div>
           <Contact />
         </div>
-      </BrowserRouter>
+      </HashRouter>
     );
   }
 }
