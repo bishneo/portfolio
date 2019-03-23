@@ -5,7 +5,7 @@ const ProfileStore = {
         aboutme: "Hi again! I am a Computer Science Graduate Student studying at Northeastern University, Boston. I have 3 years of experience working as a Full Stack Developer and I would like to further enhance my skills by working on projects that utilize state of the art technologies to give life to innovative ideas and thus shape the future of our society. I am a self-motivated individual who believes in \"Learning everyday\". ",
         currStatus: "Graduate Student",
         field: "Computer Science",
-        skill_desc: "I am a quick learner who enjoys working with people from different backgrounds and expertise. Having worked in an agile environment, I can collaborate with different teams and quickly pick up new skills and adopt to changes on the fly.",
+        skill_desc: "I am a quick learner who enjoys working with people from different backgrounds and expertise. Having worked in an agile environment, I can collaborate with different teams and quickly pick up new skills and adapt to changes on the fly.",
         quote: "If you can't explain it to a six year old, you don't understand it yourself."
     },
 
