@@ -130,4 +130,13 @@ blockquote {
   margin-left: -21px;
   margin-right: 10px;
   color: #ad1457
-  }
+}
+
+.resume-link {
+  background-color: #757575;
+}
+
+.resume-link:focus, .resume-link:hover {
+  box-shadow: 0 0 0 2px #fff;
+  background-color: #757575;
+}

@@ -9,7 +9,7 @@ const PageLinks = () => {
                 <li><NavLink to='/profile'>Profile</NavLink></li>
                 <li><NavLink to='/projects'>Projects</NavLink></li>
                 <li>
-                    <a href={InfoStore.resume} rel="noopener noreferrer" target="_blank" title="Download Resume" className='btn btn-floating grey darken-1'>
+                    <a href={InfoStore.resume} rel="noopener noreferrer" target="_blank" title="Download Resume" className='btn btn-floating resume-link'>
                         <i className="material-icons">assignment</i>
                     </a>
                 </li>
