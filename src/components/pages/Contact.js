@@ -6,24 +6,28 @@ class Contact extends Component {
             <footer className="section page-footer grey darken-4" id="contact">
                 <div className="center resume-page">
                     <h4>Contact</h4>
-                    <h6 className="grey-text">Please reach out to me for any Software Engineering and AI/ML opportunities.</h6>
+                    <h6 className="grey-text">Please reach out to me via phone/emailfor Software Engineering and AI/ML opportunities.</h6>
                     <div className="row contact-section grey-text">
                         <div className="col s4 l4">
-                            <i className="material-icons medium">email</i>
-                            <br />
-                            <span className="center">neogy.b@&#8203;husky.neu.edu</span>
+                            <a href={InfoStore.email} className="grey-text" rel="noopener noreferrer" target="_blank">
+                                <i className="material-icons medium">email</i>
+                                <br />
+                                <span className="center">neogy.b@&#8203;husky.neu.edu</span>
+                            </a>
                         </div>
                         <div className="col s4 l4">
-                            <a href={InfoStore.location} rel="noopener noreferrer" target="_blank">
+                            <a href={InfoStore.location} className="grey-text" rel="noopener noreferrer" target="_blank">
                                 <i className="material-icons medium grey-text">location_on</i>
+                                <br />
+                                <span>Boston, MA</span>
                             </a>
-                            <br />
-                            <span>Boston, MA</span>
                         </div>
                         <div className="col s4 l4 container">
-                            <i className="material-icons medium">phone</i>
-                            <br />
-                            <span>Mobile : (857) 472-9333</span>
+                            <a href={InfoStore.phno} className="grey-text" rel="noopener noreferrer" target="_blank">
+                                <i className="material-icons medium">phone</i>
+                                <br />
+                                <span>+1 (857) 472-9333</span>
+                            </a>
                         </div>
                     </div>
                     <div className="row contact-section container grey-text">
