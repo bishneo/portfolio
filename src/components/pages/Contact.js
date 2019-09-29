@@ -6,7 +6,7 @@ class Contact extends Component {
             <footer className="section page-footer grey darken-4" id="contact">
                 <div className="center resume-page">
                     <h4>Contact</h4>
-                    <h6 className="grey-text">Please reach out to me for any Software Development Internship/Co-op opportunities.</h6>
+                    <h6 className="grey-text">Please reach out to me for any Software Engineering and AI/ML opportunities.</h6>
                     <div className="row contact-section grey-text">
                         <div className="col s4 l4">
                             <i className="material-icons medium">email</i>

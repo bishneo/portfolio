@@ -18,7 +18,8 @@ const AboutSection = ({ about, info }) => {
 
             <hr style={{ borderTop: '3px solid #833fb2', width: '100%' }} />
 
-            <p>{about.aboutme}</p>
+            <p>{about.aboutme.p1}</p>
+            <p>{about.aboutme.p2}</p>
             <blockquote>
                 <p><em>{about.quote.text}</em></p>
                 <p><em>&mdash;&nbsp;{about.quote.author}</em></p>

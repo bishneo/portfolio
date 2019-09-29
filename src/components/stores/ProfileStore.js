@@ -2,7 +2,10 @@ const ProfileStore = {
     About: {
         name: "Bishwarup Neogy",
         image: "res/images/profile.png",
-        aboutme: "Hi again! I am a Computer Science Graduate Student studying at Northeastern University, Boston. I have 3 years of experience working as a Full Stack Developer and I would like to further enhance my skills by working on projects that utilize state of the art technologies to give life to innovative ideas and thus shape the future of our society. I am a self-motivated individual who believes in \"Learning everyday\". ",
+        aboutme: {
+            p1: "Hi again! I am a Computer Science Graduate Student studying at Northeastern University, Boston. I have 3+ years of experience working as a Full Stack Developer and have also developed a passion for AI/ML after working on various academic projects.",
+            p2: "I would like to further enhance my skills by working on projects that utilize state of the art technologies to give life to innovative ideas and thus shape the future of our society. I am a self-motivated individual who believes in \"Learning everyday\". "
+        },
         currStatus: "Graduate Student",
         field: "Computer Science",
         skill_desc: "I am a quick learner who enjoys working with people from different backgrounds and expertise. Having worked in an agile environment, I can collaborate with different teams and quickly pick up new skills and adapt to changes on the fly.",
@@ -22,7 +25,7 @@ const ProfileStore = {
                 url: "https://www.khoury.northeastern.edu/program/computer-science-ms/",
                 degree: "Master's",
                 start: "Sep 2018",
-                end: "Dec 2020",
+                end: "Present",
                 courses: "Programming Design Patterns, Foundations of Artificial Intelligence, Algorithm, Robotic Systems and Sciences"
 
             },

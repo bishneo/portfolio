@@ -26,7 +26,7 @@ const Experience = ({ empName, empUrl, jobRole, start, end, desc, bullets, place
             <ul className="browser-default">
                 {bullets && bullets.map(b => {
                     return (
-                        <li className="browser-default" key={b.id}>{b.info}</li>
+                        <li className="custom-bullets" key={b.id}>{b.info}</li>
                     )
                 })}
             </ul>
