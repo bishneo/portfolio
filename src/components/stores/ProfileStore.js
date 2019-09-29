@@ -6,7 +6,10 @@ const ProfileStore = {
         currStatus: "Graduate Student",
         field: "Computer Science",
         skill_desc: "I am a quick learner who enjoys working with people from different backgrounds and expertise. Having worked in an agile environment, I can collaborate with different teams and quickly pick up new skills and adapt to changes on the fly.",
-        quote: "If you can't explain it to a six year old, you don't understand it yourself."
+        quote: {
+            text: "If you can't explain it to a six year old, you don't understand it yourself.",
+            author: "Albert Einstein"
+        }
     },
 
     Details: {
@@ -39,19 +42,36 @@ const ProfileStore = {
         experience: [
             {
                 eId: 1,
+                empName: "Intralinks",
+                jobRole: "Application Development Intern",
+                img: "res/images/intralinks-logo.png",
+                url: "https://www.intralinks.com/products/banking-securities",
+                place: "Waltham, MA, USA",
+                start: "June 2019",
+                end: "Present",
+                desc: "Working with front end techlonogies like React, Redux, Backbone. Also exploring use cases for AI in the Mergers & Acquisitions domain.",
+                bullets: [
+                    { id: 1, info: "Developed accessible React-Redux applications and integrated them into existing backbone framework." },
+                    { id: 2, info: "Worked on both development and automation of features to facilitate the CI/CD process." },
+                    { id: 3, info: "Enhanced user experience by developing an AI (Topic Modeling) service to recommend documents to users." }
+                ]
+
+            },
+            {
+                eId: 2,
                 empName: "Nokia",
                 jobRole: "Senior Engineer",
-                img: "",
-                url: "",
+                img: "res/images/nokia_white_logo.png",
+                url: "https://networks.nokia.com/onc/courses/optical-network-management-nfm-t",
+                place: "Bangalore, India",
                 start: "July 2015",
                 end: "July 2018",
                 desc: "Worked as a Full Stack developer and contributed to the development of a web application intended to provide customers a user friendly interface to manage optical networks.",
                 bullets: [
-                    { id: 1, info: "Redesigned UI of the product using JavaScript, Materialize and Dojo to improve User Experience and enhance uniformity with respect to look & feel across all components." },
-                    { id: 2, info: "Built a single page application as a POC using ReactJS for a new component of a web application intended for providing an interface for users to optimize existing optical networks" },
-                    { id: 3, info: "Created a bundle containing two product releases using POM and Maven to demo future releases to customers for valuable feedback" }
+                    { id: 1, info: "Redesigned UI of product with Materialize and Dojo to deliver an improved and uniform user experience." },
+                    { id: 2, info: "Reduced turnaround time of development by refactoring existing code using Spring Boot." },
+                    { id: 3, info: "Built a single page application as a POC using React, providing users an interface to optimize optical networks." }
                 ]
-
             }
         ],
 
@@ -66,7 +86,7 @@ const ProfileStore = {
                 id: 3, name: "Spring Boot", ratings: "70%"
             },
             {
-                id: 4, name: "React JS", ratings: "60%"
+                id: 4, name: "React JS", ratings: "70%"
             },
             {
                 id: 5, name: "MySQL", ratings: "60%"
@@ -75,7 +95,7 @@ const ProfileStore = {
                 id: 6, name: "C/C++", ratings: "70%"
             },
             {
-                id: 7, name: "Python", ratings: "60%"
+                id: 7, name: "Python", ratings: "70%"
             },
         ]
     }

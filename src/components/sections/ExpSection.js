@@ -15,6 +15,8 @@ const ExpSection = ({ experience }) => {
                         desc={exp.desc}
                         key={exp.eId}
                         bullets={exp.bullets}
+                        place={exp.place}
+                        img={exp.img}
                     />
                 )
             })}

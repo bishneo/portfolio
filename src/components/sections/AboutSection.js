@@ -3,11 +3,11 @@ const AboutSection = ({ about, info }) => {
     return (
         <div>
             <div className="row">
-                <div className="col s12 l6 offset-l3">
+                <div className="col l6 s12 offset-l3">
                     <img
-                        className="responsive-img circle z-depth-1"
+                        className="responsive-img circle z-depth-1 halign"
                         src={about.image}
-                        alt=""
+                        alt="Profile image"
                     />
                 </div>
             </div>
@@ -19,15 +19,10 @@ const AboutSection = ({ about, info }) => {
             <hr style={{ borderTop: '3px solid #833fb2', width: '100%' }} />
 
             <p>{about.aboutme}</p>
-
-            {/* <hr style={{ borderTop: '3px solid #833fb2', width: '100%' }} /> */}
-            <blockquote><em>{about.quote}</em></blockquote>
-            {/* <h5 className="grey-text text-darken-2">Address</h5>
-            <p>{info.address}</p>
-            <h5 className="grey-text text-darken-2">Phone</h5>
-            <p>{info.phno}</p>
-            <h5 className="grey-text text-darken-2">Email</h5>
-            <p>{info.email}</p> */}
+            <blockquote>
+                <p><em>{about.quote.text}</em></p>
+                <p><em>&mdash;&nbsp;{about.quote.author}</em></p>
+            </blockquote>
 
             <hr style={{ borderTop: '3px solid #833fb2', width: '100%' }} />
         </div>
