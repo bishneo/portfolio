@@ -26,7 +26,7 @@ const ProjectStore = [
     {
         title: "Biometric Authentication System",
         img: "res/images/biometric.png",
-        url: "res/files/BTechProjectBN_BiometricRecog.pdf",
+        url: "https://github.com/bishneo/biometricRecognition/blob/master/BTechProjectBN_BiometricRecog.pdf",
         desc: "Built a biometric authentication system using Raspberry Bi mini computer which could recognize faces and identify finger prints to authenticate the user."
     },
     {
