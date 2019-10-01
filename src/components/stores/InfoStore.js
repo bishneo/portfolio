@@ -5,6 +5,6 @@ const InfoStore = {
     linkedin: "https://www.linkedin.com/in/bishwarup-neogy-57347a62/",
     location: "https://goo.gl/maps/UKfE238B4iqDaZXG9",
     address: "10 Allston St, Boston, MA - 02134",
-    resume: "https://github.com/bishneo/resume/blob/master/Bishwarup_Neogy_Resume(softdev-ai).pdf"
+    resume: "https://drive.google.com/file/d/1DaFswKwwJN5Ngvr5DE3lmfSA8ondRYdb/view"
 }
 export default InfoStore;
